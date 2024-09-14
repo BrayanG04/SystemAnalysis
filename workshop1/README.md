@@ -33,21 +33,16 @@ Este taller se centra en la detección de motivos en un conjunto artificial de s
      ```
 
 2. **Generar la Base de Datos Artificial:**
-   - Utiliza el script `generate_database.py` (o el nombre de archivo correspondiente) para crear la base de datos artificial.
-   - Ejemplo de ejecución:
-     ```bash
-     python generate_database.py --num_sequences 1000 --sequence_length 50 --output_file database.txt
-     ```
+   - Ajusta los datos como el Database Size, the Probability of Bases, the Motif Size, the number of sequences and the threshold 
+   - Inicia el programa ejecutando `Main.java` para crear la base de datos artificial.
+     
 
-3. **Ejecutar el Algoritmo de Detección de Motivos:**
-   - Usa el script `find_motifs.py` (o el nombre de archivo correspondiente) para encontrar motivos en la base de datos generada.
-   - Ejemplo de ejecución:
-     ```bash
-     python find_motifs.py --database_file database.txt --motif_size 6 --output_file results.txt
-     ```
+3. **Revisar las secuencias:**
+   - Consulta el archivo `database.txt` para encontrar las secuencias en la base de datos generada.
 
-4. **Revisar los Resultados:**
-   - Consulta el archivo `results.txt` para ver los motivos encontrados, sus ocurrencias y el tiempo de ejecución.
+   
+4. **Mira los resultados:**
+   - Mira el output para saber cuantos motif se generaron, el motif y el tiempo que tardó en hacerlo.
 
 ## Reporte
 
@@ -65,5 +60,5 @@ Si tienes sugerencias o mejoras para este taller, sigue estos pasos:
 
 Para cualquier consulta o comentario relacionado con este taller, contacta a:
 
-- **Tu Nombre**: [gomezrodriguezbrayanc@gmail.com](mailto:gomezrodriguezbrayanc@gmail.com)
+[gomezrodriguezbrayanc@gmail.com](mailto:gomezrodriguezbrayanc@gmail.com)
 
