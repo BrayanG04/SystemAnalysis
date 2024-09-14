@@ -1,64 +1,61 @@
-# Workshop 1: Detección de Motivos en Datos Genéticos
+# Workshop 1: Detection of Motifs in Genetic Data
 
-## Descripción
+## Description
 
-Este taller se centra en la detección de motivos en un conjunto artificial de secuencias genéticas. Un motivo es un patrón de cadenas que aparece con mayor frecuencia en un conjunto de secuencias. 
+This workshop focuses on detecting motifs in an artificial set of genetic sequences. A motif is a string pattern that appears more frequently in a set of sequences.
 
-### Pasos del Taller
+### Workshop Steps
 
-1. **Crear una Base de Datos Artificial:**
-   - Genera una base de datos artificial con `n` secuencias (1000 <= n <= 2000000), de tamaño `m` (5 <= m <= 100).
-   - Cada secuencia debe estar compuesta por las bases nucleotídicas A, C, G, T.
-   - La probabilidad de selección de cada base debe ser un parámetro ajustable.
-   - Guarda la base de datos en un archivo `.txt`.
-   - Considera usar una estrategia de divide y conquista o de cómputo distribuido para manejar el tamaño de los datos.
+1. **Create an Artificial Database:**
+   - Generate an artificial database with `n` sequences (1000 <= n <= 2000000), of size `m` (5 <= m <= 100).
+   - Each sequence should be composed of the nucleotide bases A, C, G, T.
+   - The selection probability of each base should be an adjustable parameter.
+   - Save the database in a `.txt` file.
+   - Consider using a divide-and-conquer or distributed computing strategy to handle the data size.
 
-2. **Definir un Algoritmo para Encontrar Motivos:**
-   - Implementa un algoritmo para buscar el motivo de tamaño `s` (4 <= s <= 10) en la base de datos.
-   - Examina todas las combinaciones posibles de bases nucleotídicas de tamaño `s`.
-   - Si hay varios motivos con la misma frecuencia, selecciona el que tenga la mayor cantidad de bases repetidas consecutivamente.
+2. **Define an Algorithm to Find Motifs:**
+   - Implement an algorithm to search for motifs of size `s` (4 <= s <= 10) in the database.
+   - Examine all possible combinations of nucleotide bases of size `s`.
+   - If there are multiple motifs with the same frequency, select the one with the most consecutive repeated bases.
 
-3. **Optimización y Análisis:**
-   - Considera un enfoque optimizado para manejar el tamaño y la complejidad de los datos.
-   - Aplica la entropía de Shannon para filtrar secuencias con demasiadas repeticiones de bases, eliminando secuencias que no contribuyan a la diversidad.
+3. **Optimization and Analysis:**
+   - Consider an optimized approach to handle the size and complexity of the data.
+   - Apply Shannon entropy to filter out sequences with too many repeated bases, eliminating sequences that do not contribute to diversity.
 
-## Instrucciones de Uso
+## Usage Instructions
 
-1. **Preparar el Entorno:**
-   - Asegúrate de tener los requisitos necesarios instalados (por ejemplo, Java, Maven, si corresponde).
-   - Clona este repositorio y navega a la carpeta del taller:
+1. **Set Up the Environment:**
+   - Ensure the necessary requirements are installed (e.g., Java, Maven, if applicable).
+   - Clone this repository and navigate to the workshop folder:
      ```bash
-     git clone https://github.com/tu_usuario/SystemAnalysis.git
+     git clone https://github.com/your_username/SystemAnalysis.git
      cd SystemAnalysis/workshop1
      ```
 
-2. **Generar la Base de Datos Artificial:**
-   - Ajusta los datos como el Database Size, the Probability of Bases, the Motif Size, the number of sequences and the threshold 
-   - Inicia el programa ejecutando `Main.java` para crear la base de datos artificial.
-     
+2. **Generate the Artificial Database:**
+   - Adjust parameters such as Database Size, Probability of Bases, Motif Size, number of sequences, and threshold.
+   - Run the program by executing `Main.java` to create the artificial database.
 
-3. **Revisar las secuencias:**
-   - Consulta el archivo `database.txt` para encontrar las secuencias en la base de datos generada.
+3. **Review the Sequences:**
+   - Check the `database.txt` file to view the sequences in the generated database.
 
-   
-4. **Mira los resultados:**
-   - Mira el output para saber cuantos motif se generaron, el motif y el tiempo que tardó en hacerlo.
+4. **View the Results:**
+   - Check the output to see how many motifs were generated, the motif itself, and the time it took.
 
-## Reporte
+## Report
 
-El informe en formato PDF que describe el proceso, los resultados y el análisis del taller está disponible en la carpeta `workshop1/`. Asegúrate de revisar el informe para una comprensión completa del taller.
+A PDF report describing the process, results, and analysis of the workshop is available in the `workshop1/` folder. Be sure to review the report for a full understanding of the workshop.
 
-## Contribuciones
+## Contributions
 
-Si tienes sugerencias o mejoras para este taller, sigue estos pasos:
-1. Haz un fork del repositorio.
-2. Crea una nueva rama para tus cambios.
-3. Realiza los cambios y haz un commit.
-4. Envía un pull request.
+If you have suggestions or improvements for this workshop, follow these steps:
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Make your changes and commit them.
+4. Submit a pull request.
 
-## Contacto
+## Contact
 
-Para cualquier consulta o comentario relacionado con este taller, contacta a:
+For any questions or comments related to this workshop, contact:
 
 [gomezrodriguezbrayanc@gmail.com](mailto:gomezrodriguezbrayanc@gmail.com)
-
