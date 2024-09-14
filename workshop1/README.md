@@ -25,23 +25,33 @@ Este taller se centra en la detección de motivos en un conjunto artificial de s
 ## Instrucciones de Uso
 
 1. **Preparar el Entorno:**
-   - Asegúrate de tener los requisitos necesarios instalados (Java, Maven, etc., si corresponde).
+   - Asegúrate de tener los requisitos necesarios instalados (por ejemplo, Java, Maven, si corresponde).
    - Clona este repositorio y navega a la carpeta del taller:
      ```bash
      git clone https://github.com/tu_usuario/SystemAnalysis.git
      cd SystemAnalysis/workshop1
      ```
 
-2. **Ejecutar el Código:**
-   - Sigue las instrucciones en el archivo `README.md` del proyecto para ejecutar el código y generar la base de datos artificial.
-   - Usa el algoritmo definido para buscar y analizar motivos en los datos generados.
+2. **Generar la Base de Datos Artificial:**
+   - Utiliza el script `generate_database.py` (o el nombre de archivo correspondiente) para crear la base de datos artificial.
+   - Ejemplo de ejecución:
+     ```bash
+     python generate_database.py --num_sequences 1000 --sequence_length 50 --output_file database.txt
+     ```
 
-3. **Revisar los Resultados:**
-   - Consulta el archivo de resultados para ver los motivos encontrados, sus ocurrencias y el tiempo de ejecución.
+3. **Ejecutar el Algoritmo de Detección de Motivos:**
+   - Usa el script `find_motifs.py` (o el nombre de archivo correspondiente) para encontrar motivos en la base de datos generada.
+   - Ejemplo de ejecución:
+     ```bash
+     python find_motifs.py --database_file database.txt --motif_size 6 --output_file results.txt
+     ```
+
+4. **Revisar los Resultados:**
+   - Consulta el archivo `results.txt` para ver los motivos encontrados, sus ocurrencias y el tiempo de ejecución.
 
 ## Reporte
 
-El informe en formato PDF que describe el proceso, los resultados y el análisis del taller está disponible en la carpeta `workshop1/`.
+El informe en formato PDF que describe el proceso, los resultados y el análisis del taller está disponible en la carpeta `workshop1/`. Asegúrate de revisar el informe para una comprensión completa del taller.
 
 ## Contribuciones
 
