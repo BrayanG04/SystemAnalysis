@@ -1,12 +1,9 @@
 # System Analysis
 
-Este repositorio contiene los trabajos y reportes para los talleres del curso de Análisis de Sistemas. Aquí encontrarás el código y los informes relacionados con cada taller.
+This repository contains the work and reports for the System Analysis course workshops. Here, you will find the code and reports related to each workshop.
 
-## Estructura del Repositorio
+## Repository Structure
 
-- **workshop1/**: Carpeta para el primer taller.
-  - `README.md`: Descripción y detalles del primer taller.
-  - Otros archivos del taller, como el código y el informe PDF.
-
-
-
+- **workshop1/**: Folder for the first workshop.
+  - `README.md`: Description and details of the first workshop.
+  - Other workshop files, such as the code and PDF report.
